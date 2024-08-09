@@ -2,6 +2,7 @@
 
 import { Typewriter } from 'react-simple-typewriter';
 import profileImg from '../../../assets/images/profileImg3.png'
+import SocialIcon from '../../Shared/SocialIcon/SocialIcon';
 const AboutMe = () => {
     return (
         <div className="md:flex gap-12 p-2 items-center max-w-6xl mx-auto mt-32">
@@ -21,6 +22,7 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <p className='text-lg'>I’m Habib, a dedicated web developer with a  for crafting dynamic and responsive web experiences. My expertise lies in utilizing the React library and the MERN stack (MongoDB, Express, React, Node.js) to build robust full-stack applications. I’m committed to leveraging modern technologies to deliver high-quality solutions that enhance user experience and drive success</p>
+                <SocialIcon></SocialIcon>
             </div>
         </div>
     );
