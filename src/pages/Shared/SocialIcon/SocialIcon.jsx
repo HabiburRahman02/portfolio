@@ -12,7 +12,7 @@ const SocialIcon = () => {
                 <FaTwitter></FaTwitter>
             </Link>
             <Link
-                to={'https://www.whatsapp.com/'}
+                to={'https://www.whatsapp.com'}
                 target="_blank"
                 className="text-green-500"
             >
