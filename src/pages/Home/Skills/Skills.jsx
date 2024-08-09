@@ -76,7 +76,7 @@ const Skills = () => {
                             <p className='text-xl mt-2 text-white font-bold'>React</p>
                         </div>
                     </div>
-                    <div className='bg-gradient-to-b from-blue-900 to-blue-600 rounded-lg flex items-center justify-center py-6'>
+                    <div className='bg-gradient-to-b from-sky-900 to-sky-600 rounded-lg flex items-center justify-center py-6'>
                         <div>
                             <div>
                                 <img src={express} alt="" />
