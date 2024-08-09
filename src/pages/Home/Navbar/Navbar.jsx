@@ -21,8 +21,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <nav className="bg-gradient-to-r from-indigo-500 to-pink-500 text-white">
-      <div className="navbar max-w-[1400px] mx-auto py-4 ">
+    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-indigo-500 to-pink-500 text-white shadow-2xl">
+      <div className="navbar max-w-[1400px] mx-auto py-2 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
