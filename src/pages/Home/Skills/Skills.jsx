@@ -115,12 +115,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-
-/* 
-<div style={{ clipPath: 'polygon(0 0, 70% 0, 100% 35%, 100% 100%, 0% 100%)' }}
-                    className='bg-gradient-to-b from-blue-900 to-blue-600  p-8 flex justify-center rounded-lg'>
-                    <img className='' src={react} alt="" />
-                </div>
-
-*/

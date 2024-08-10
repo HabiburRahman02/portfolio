@@ -3,6 +3,7 @@
 import { Typewriter } from 'react-simple-typewriter';
 import profileImg from '../../../assets/images/profileImg3.png'
 import SocialIcon from '../../Shared/SocialIcon/SocialIcon';
+
 const AboutMe = () => {
     return (
         <div className="md:flex gap-12 p-2 items-center max-w-6xl mx-auto mt-32">
