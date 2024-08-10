@@ -7,13 +7,16 @@ const Navbar = () => {
         <Link className="hover:underline text-xl">Home</Link>
       </li>
       <li>
-        <Link className="hover:underline text-xl">Skills</Link>
+        <Link to='aboutMe' className="hover:underline text-xl">About Me</Link>
       </li>
       <li>
-        <Link className="hover:underline text-xl">Projects</Link>
+        <Link to='skills' className="hover:underline text-xl">Skills</Link>
       </li>
       <li>
-        <Link className="hover:underline text-xl">Education</Link>
+        <Link to='projects' className="hover:underline text-xl">Projects</Link>
+      </li>
+      <li>
+        <Link to='education' className="hover:underline text-xl">Education</Link>
       </li>
       <li>
         <Link className="hover:underline text-xl">Contact</Link>
