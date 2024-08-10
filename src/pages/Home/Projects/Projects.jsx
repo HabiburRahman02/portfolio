@@ -2,6 +2,7 @@ import { FaGithub } from 'react-icons/fa';
 import productStore from '../../../assets/images/projects/product-store.JPG'
 import doctorCenter from '../../../assets/images/projects/doctor-center.JPG'
 import pandaCommerce from '../../../assets/images/projects/panda-commerce.jpg'
+import personalPortfolio from '../../../assets/images/projects/personal-portfolio.jpg'
 
 import { MdLiveTv } from "react-icons/md";
 
@@ -46,7 +47,7 @@ const Projects = () => {
             <div className='grid grid-cols-1 gap-8'>
                 <div className="md:flex items-center gap-16 p-12 m-4 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
                     <div className='md:w-1/2'>
-                        <img className='border-y border-y-slate-900 rounded-lg p-2' src={productStore} alt="" />
+                        <img className='border-y border-y-slate-900 rounded-lg p-2' src={personalPortfolio} alt="" />
                     </div>
                     <div className="md:w-1/2 space-y-2">
                         <p className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">Product Store</p>
