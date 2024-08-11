@@ -6,10 +6,10 @@ import { Fade } from "react-awesome-reveal";
 
 const Contact = () => {
     return (
-        <Fade direction="up">
+        <Fade direction="top-left">
             <div className="max-w-6xl mx-auto my-32">
                 <div className="md:flex items-center gap-16 m-4">
-                    <div className="md:w-2/5 border-2 border-black transition-all rounded-2xl p-4">
+                    <div className="md:w-2/5 mb-6  transition-all rounded-2xl p-4">
                         <img className='rounded-lg' src={contactImg} alt="" />
                         <div>
                             <div className='my-6'>
