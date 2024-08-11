@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to='education' className="hover:underline text-xl">Education</Link>
       </li>
       <li>
-        <Link className="hover:underline text-xl">Contact</Link>
+        <Link to='contact' className="hover:underline text-xl">Contact</Link>
       </li>
     </>
   );

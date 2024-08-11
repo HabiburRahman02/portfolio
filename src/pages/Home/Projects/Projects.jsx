@@ -9,12 +9,12 @@ import { Fade } from 'react-awesome-reveal';
 
 const Projects = () => {
     return (
-        <Fade direction='right'>
+        <Fade>
             <div className="max-w-6xl mx-auto mt-32">
                 {/* first card container start */}
                 <h1 className="mt-16 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 text-center">Projects_ </h1>
                 <div className="grid md:grid-cols-2 mx-4 gap-16 my-16">
-                    <div className="p-12 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
+                    <div className="p-6 md:p-12 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
                         <img className='border-y border-y-slate-900 rounded-lg p-2' src={pandaCommerce} alt="" />
                         <p className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">Product Store</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sequi veritatis laboriosam velit fugiat eligendi temporibus, molestiae sit commodi non?</p>
@@ -28,7 +28,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-12 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
+                    <div className="p-6 md:p-12 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
                         <img className='border-y border-y-slate-900 rounded-lg p-2' src={doctorCenter} alt="" />
                         <p className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">Product Store</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sequi veritatis laboriosam velit fugiat eligendi temporibus, molestiae sit commodi non?</p>
@@ -47,7 +47,7 @@ const Projects = () => {
 
                 {/* second card container start */}
                 <div className='grid grid-cols-1 gap-8'>
-                    <div className="md:flex items-center gap-16 p-12 m-4 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
+                    <div className="p-6 md:p-12 md:flex items-center gap-16 m-4 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
                         <div className='md:w-1/2'>
                             <img className='border-y border-y-slate-900 rounded-lg p-2' src={personalPortfolio} alt="" />
                         </div>
@@ -66,7 +66,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="md:flex items-center gap-16 p-12 m-4 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
+                    <div className="p-6 md:p-12 md:flex items-center gap-16 m-4 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
                         <div className='md:w-1/2'>
                             <img className='border-y border-y-slate-900 rounded-lg p-2' src={productStore} alt="" />
                         </div>
@@ -91,7 +91,7 @@ const Projects = () => {
 
                 {/* third card container start */}
                 <div className="grid md:grid-cols-2 mx-4 gap-16 my-16">
-                    <div className="p-12 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
+                    <div className="p-6 md:p-12 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
                         <img className='border-y border-y-slate-900 rounded-lg p-2' src={pandaCommerce} alt="" />
                         <p className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">Product Store</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sequi veritatis laboriosam velit fugiat eligendi temporibus, molestiae sit commodi non?</p>
@@ -105,7 +105,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-12 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
+                    <div className="p-6 md:p-12 space-y-2 rounded-2xl bg-gray-50 border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
                         <img className='border-y border-y-slate-900 rounded-lg p-2' src={doctorCenter} alt="" />
                         <p className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">Product Store</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sequi veritatis laboriosam velit fugiat eligendi temporibus, molestiae sit commodi non?</p>

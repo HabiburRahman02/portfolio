@@ -1,9 +1,9 @@
-import { Fade } from "react-awesome-reveal";
 import AboutMe from "../AboutMe/AboutMe";
 import Banner from "../Banner/Banner";
 import Education from "../Education/Education";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
+import Contact from "../Contact/Contact";
 
 
 const Home = () => {
@@ -13,7 +13,8 @@ const Home = () => {
       <AboutMe></AboutMe>
       <Skills></Skills>
       <Projects></Projects>
-      <Fade><Education></Education></Fade>
+      <Education></Education>
+      <Contact></Contact>
     </div>
   );
 };
