@@ -4,7 +4,9 @@ import { FiDownload } from "react-icons/fi";
 import { Typewriter } from 'react-simple-typewriter'
 
 import bannerImg from '../../../assets/images/bannerImg2.png'
+import resumePdf from '../../../assets/link/resume.pdf'
 import { Fade } from "react-awesome-reveal";
+
 const Banner = () => {
     return (
         <Fade>
@@ -20,9 +22,14 @@ const Banner = () => {
                             ></Typewriter>
                         </div>
                         <p className='text-lg'>I am a passionate web developer specializing in building dynamic and responsive web applications using React and the Mern stack. With expertise in React, MongoDB, Express, Node.js, and JavaScript, I create full-stack applications that are efficient, scalable, and user-friendly</p>
-                        <button className='bg-white text-black px-12 py-3 rounded-full flex items-center'>
-                            <FiDownload className="mr-2"></FiDownload>
-                            Resume</button>
+                        <div>
+
+                            <a href={resumePdf} download>
+                                <button className='bg-white text-black px-12 py-3 rounded-full flex items-center'>
+                                    <FiDownload className="mr-2"></FiDownload>
+                                    Resume</button>
+                            </a>
+                        </div>
                     </div>
 
                     <div className='md:w-1/2 border2'>
