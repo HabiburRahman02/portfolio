@@ -9,6 +9,7 @@ import express from '../../../assets/images/skills/express.png'
 import mongoDB from '../../../assets/images/skills/mongoDb.png'
 import firebase from '../../../assets/images/skills/firebase.png'
 import github from '../../../assets/images/skills/github.png'
+import git from '../../../assets/images/skills/git.png'
 
 
 import Marquee from 'react-fast-marquee'
@@ -19,8 +20,8 @@ const Skills = () => {
         <Fade>
             <div className=" mt-32 mb-0 text-center">
                 <h1 className="text-5xl font-bold  text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 ">Skills_ </h1>
-                <Marquee>
-                    <div className='grid grid-cols-3 md:grid-cols-8 gap-3 m-3 my-8'>
+                <Marquee pauseOnClick={true}>
+                    <div className='grid grid-cols-3 md:grid-cols-7 gap-3 m-3 my-8'>
                         <div className='bg-gradient-to-b from-red-900 to-red-600 rounded-lg flex items-center justify-center px-12 py-6'>
                             <div>
                                 <div>
@@ -78,7 +79,7 @@ const Skills = () => {
                                 <p className='text-xl mt-2 text-white font-bold'>React</p>
                             </div>
                         </div>
-                        <div className='bg-gradient-to-b from-sky-900 to-sky-600 rounded-lg flex items-center justify-center py-6'>
+                        <div className='bg-gradient-to-b from-pink-900 to-pink-600 rounded-lg flex items-center justify-center py-6'>
                             <div>
                                 <div>
                                     <img src={express} alt="" />
@@ -108,6 +109,14 @@ const Skills = () => {
                                     <img src={github} alt="" />
                                 </div>
                                 <p className='text-xl mt-2 text-white font-bold'>Github</p>
+                            </div>
+                        </div>
+                        <div className='bg-gradient-to-b from-violet-900 to-violet-600 rounded-lg flex items-center justify-center py-6'>
+                            <div>
+                                <div>
+                                    <img src={git} alt="" />
+                                </div>
+                                <p className='text-xl mt-2 text-white font-bold'>Git</p>
                             </div>
                         </div>
                     </div>
