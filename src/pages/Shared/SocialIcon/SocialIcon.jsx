@@ -33,7 +33,7 @@ const SocialIcon = () => {
                 <FaGithub></FaGithub>
             </Link>
             <Link
-                to={'https://www.linkedin.com'}
+                to={'https://www.linkedin.com/in/habiburrahmandev'}
                 target="_blank"
                 className="text-blue-600"
             >

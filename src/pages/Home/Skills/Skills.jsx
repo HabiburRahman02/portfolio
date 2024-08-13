@@ -11,7 +11,6 @@ import firebase from '../../../assets/images/skills/firebase.png'
 import github from '../../../assets/images/skills/github.png'
 import git from '../../../assets/images/skills/git.png'
 
-
 import Marquee from 'react-fast-marquee'
 import { Fade } from 'react-awesome-reveal'
 

@@ -7,7 +7,7 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <Link className="hover:underline text-xl">Home</Link>
+        <Link to='/' className="hover:underline text-xl">Home</Link>
       </li>
       <li>
         <Link to='aboutMe' className="hover:underline text-xl">About Me</Link>
