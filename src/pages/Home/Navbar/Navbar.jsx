@@ -46,12 +46,15 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <h2 className="text-2xl">Habibur Rahman</h2>
+          <h2 className="text-2xl hidden lg:block">Habibur Rahman</h2>
         </div>
-        <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            {links}
-          </ul>
+        <div className="navbar-end ">
+          <h2 className="text-2xl lg:hidden">Habibur Rahman</h2>
+          <div className="hidden lg:flex">
+            <ul className="menu menu-horizontal px-1">
+              {links}
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
