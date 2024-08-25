@@ -33,7 +33,7 @@ const Footer = () => {
                             <FaGithub></FaGithub>
                         </Link>
                         <Link
-                            to={'https://www.linkedin.com'}
+                            to={'https://www.linkedin.com/in/habiburrahmandev'}
                             target="_blank"
                         >
                             <FaLinkedin></FaLinkedin>
