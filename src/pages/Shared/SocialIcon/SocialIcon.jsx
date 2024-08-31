@@ -5,14 +5,14 @@ const SocialIcon = () => {
     return (
         <div className="flex gap-6 text-3xl ">
             <Link
-                to={'https://www.twitter.com'}
+                to={'https://portfoliohabib.netlify.app'}
                 target="_blank"
                 className="text-blue-500"
             >
                 <FaTwitter></FaTwitter>
             </Link>
             <Link
-                to={'https://www.whatsapp.com'}
+                to={'https://portfoliohabib.netlify.app'}
                 target="_blank"
                 className="text-green-500"
             >

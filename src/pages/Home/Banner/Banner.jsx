@@ -4,7 +4,7 @@ import { FiDownload } from "react-icons/fi";
 import { Typewriter } from 'react-simple-typewriter'
 
 import bannerImg from '../../../assets/images/bannerImg2.png'
-import resumePdf from '../../../assets/link/resume.pdf'
+import resumePdf from '../../../assets/link/habibur-resume.pdf'
 import { Fade } from "react-awesome-reveal";
 
 const Banner = () => {

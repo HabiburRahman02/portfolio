@@ -17,7 +17,7 @@ import { Fade } from 'react-awesome-reveal'
 const Skills = () => {
     return (
         <Fade>
-            <div className=" mt-32 mb-16 text-center">
+            <div className=" pt-32 text-center">
                 <h1 className="text-5xl font-bold  text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 ">Skills_ </h1>
                 <Marquee pauseOnClick={true}>
                     <div className='grid grid-cols-3 md:grid-cols-7 gap-3 m-3 my-8'>

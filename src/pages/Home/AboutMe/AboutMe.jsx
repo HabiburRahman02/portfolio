@@ -8,7 +8,7 @@ import { Fade } from 'react-awesome-reveal';
 const AboutMe = () => {
     return (
         <Fade direction='left'>
-            <div className="md:flex gap-12 p-2 items-center max-w-6xl mx-auto mt-32 mb-16">
+            <div className="md:flex gap-12 p-2 items-center max-w-6xl mx-auto pt-32 pb-8">
                 <div className='md:w-1/2 p-8 w-full rounded-2xl border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 cursor-pointer transition-all mb-6'>
                     <img className='rounded-2xl bg-gradient-to-r from-indigo-500 to-pink-500' src={profileImg} alt="" />
                 </div>

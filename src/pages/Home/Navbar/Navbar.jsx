@@ -27,7 +27,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <nav className=" fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-indigo-500 to-pink-500 text-white shadow-xl">
+    <nav className="fixed w-full top-0 z-10 bg-gradient-to-r from-indigo-500 to-pink-500 text-white shadow-xl">
       <div className="navbar max-w-[1400px] mx-auto py-2 ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -46,10 +46,10 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <h2 className="text-2xl hidden lg:block">Habibur Rahman</h2>
+          <h2 className="text-2xl hidden lg:block">Md. Habibullah</h2>
         </div>
         <div className="navbar-end ">
-          <h2 className="text-2xl lg:hidden">Habibur Rahman</h2>
+          <h2 className="text-2xl lg:hidden">Md. Habibullah</h2>
           <div className="hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               {links}

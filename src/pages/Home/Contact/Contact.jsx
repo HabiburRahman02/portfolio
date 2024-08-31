@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 const Contact = () => {
     return (
         <Fade >
-            <h1 className="text-5xl font-bold  text-center mb-16 text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 mt-32"> Contact_ </h1>
+            <h1 className="text-5xl font-bold  text-center text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 pt-32"> Contact_ </h1>
             <Fade direction="top-left">
                 <div className="max-w-6xl mx-auto mb-16">
                     <div className="md:flex items-center gap-16 m-4">

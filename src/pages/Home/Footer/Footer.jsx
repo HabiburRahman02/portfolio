@@ -9,13 +9,13 @@ const Footer = () => {
                 <div>
                     <div className="flex justify-center gap-6 text-3xl  mb-5">
                         <Link
-                            to={'https://www.twitter.com'}
+                            to={'https://portfoliohabib.netlify.app'}
                             target="_blank"
                         >
                             <FaTwitter></FaTwitter>
                         </Link>
                         <Link
-                            to={'https://www.whatsapp.com'}
+                            to={'https://portfoliohabib.netlify.app'}
                             target="_blank"
                         >
                             <FaWhatsapp></FaWhatsapp>
