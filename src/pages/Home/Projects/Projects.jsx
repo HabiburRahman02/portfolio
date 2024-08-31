@@ -6,7 +6,7 @@ const Projects = () => {
 
     return (
         <Fade>
-            <div className="max-w-6xl mx-auto pt-32">
+            <div className="max-w-6xl mx-auto pt-32 pb-16">
                 <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 text-center">Projects_ </h1>
 
                 {/* first card container start */}
