@@ -21,7 +21,7 @@ const Banner = () => {
                                 loop={false}
                             ></Typewriter>
                         </div>
-                        <p className='text-lg'>I am a passionate web developer specializing in building dynamic and responsive web applications using React and the Mern stack. With expertise in React, MongoDB, Express, Node.js, and JavaScript, I create full-stack applications that are efficient, scalable, and user-friendly</p>
+                        <p className='text-lg'>I am a web developer specializing in building dynamic and responsive web applications using React and the Mern stack. With expertise in React, MongoDB, Express, Node.js, and JavaScript, I create full-stack applications that are efficient, scalable, and user-friendly</p>
                         <div>
 
                             <a href={resumePdf} download>
