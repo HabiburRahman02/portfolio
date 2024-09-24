@@ -89,7 +89,7 @@ const Skills = () => {
                         <div className='bg-gradient-to-b from-emerald-900 to-emerald-600 rounded-lg flex items-center justify-center py-6'>
                             <div>
                                 <div>
-                                    <img className='mx-auto' className='mx-auto' src={mongoDB} alt="" />
+                                    <img className='mx-auto' src={mongoDB} alt="" />
                                 </div>
                                 <p className='text-xl mt-2 text-white font-bold'>MongoDB</p>
                             </div>

@@ -4,6 +4,7 @@ import { MdLiveTv } from "react-icons/md";
 import healthImg from '../../../../assets/images/projects/health-event.jpg'
 import rinterioImg from '../../../../assets/images/projects/rinterio.jpg'
 import { Fade } from "react-awesome-reveal";
+import Tilt from 'react-parallax-tilt';
 
 const ProjectContainerTwo = () => {
     return (
@@ -12,7 +13,9 @@ const ProjectContainerTwo = () => {
                 <div className="p-6 md:p-8 md:flex items-center gap-16 mx-4 space-y-2 shadow-2xl rounded-2xl bg-white border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
                     <div className='md:w-1/2'>
                         <a href="https://health-event-14e66.web.app" target="_blank">
-                            <img className='w-full h-[230px] md:h-[300px] object-cover rounded-md' src={healthImg} alt="" />
+                            <Tilt>
+                                <img className='w-full h-[230px] md:h-[300px] object-cover rounded-md' src={healthImg} alt="" />
+                            </Tilt>
                         </a>
                     </div>
                     <div className="md:w-1/2 space-y-4">
@@ -40,7 +43,9 @@ const ProjectContainerTwo = () => {
                 <div className="p-6 md:p-8 md:flex items-center gap-16 mx-4 space-y-2 shadow-2xl rounded-2xl bg-white border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
                     <div className='md:w-1/2'>
                         <a href="https://health-event-14e66.web.app" target="_blank">
-                            <img className='w-full h-[230px] md:h-[300px] object-cover rounded-md' src={rinterioImg} alt="" />
+                            <Tilt>
+                                <img className='w-full h-[230px] md:h-[300px] object-cover rounded-md' src={rinterioImg} alt="" />
+                            </Tilt>
                         </a>
                     </div>
                     <div className="md:w-1/2 space-y-4">

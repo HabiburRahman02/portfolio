@@ -8,6 +8,7 @@ import resumePdf from '../../../assets/link/habibur-resume.pdf'
 import { Fade } from "react-awesome-reveal";
 
 const Banner = () => {
+    // style={{ clipPath: 'ellipse(100% 100% at 50% 0%)' }}
     return (
         <Fade>
             <div className="text-white bg-gradient-to-r from-indigo-500 to-pink-500">
