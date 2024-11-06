@@ -3,8 +3,8 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Education = () => {
     return (
-        <div className="max-w-6xl mx-auto pt-32 mb-16">
-            <h1 className="text-5xl font-bold  text-center mb-8 text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 ">Educational Qualification_ </h1>
+        <div className="max-w-[1300px] mx-auto my-16">
+            <h1 className="text-5xl dark:text-white font-bold  text-center mb-8 text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 ">Educational Qualification_ </h1>
 
             <VerticalTimeline lineColor='pink'>
                 <VerticalTimelineElement

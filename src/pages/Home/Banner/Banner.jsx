@@ -12,7 +12,7 @@ const Banner = () => {
     return (
         <Fade>
             <div className="text-white bg-gradient-to-r from-indigo-500 to-pink-500">
-                <div className="md:flex gap-24 p-2 items-center justify-between max-w-6xl mx-auto py-32">
+                <div className="md:flex gap-24 p-2 items-center justify-between max-w-[1300px] mx-auto py-24">
                     <div className="space-y-5 md:w-1/2 border2">
                         <h1 className="text-5xl font-bold"> Hey! I'm Habib </h1>
                         <div className="text-4xl font-bold">

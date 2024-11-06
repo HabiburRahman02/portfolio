@@ -4,7 +4,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-i
 const Footer = () => {
     return (
         <div className=" px-4 bg-gradient-to-r from-indigo-500 to-pink-500 text-white py-12">
-            <div className="md:flex items-center justify-between space-y-5 text-center max-w-6xl mx-auto">
+            <div className="md:flex items-center justify-between space-y-5 text-center max-w-[1300px] mx-auto">
                 <p className="text-xl">&copy;Copyright 2024 - 2025</p>
                 <div>
                     <div className="flex justify-center gap-6 text-3xl  mb-5">

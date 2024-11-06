@@ -8,7 +8,7 @@ import Tilt from 'react-parallax-tilt';
 
 const ProjectContainerTwo = () => {
     return (
-        <div className='grid grid-cols-1 gap-16'>
+        <div className='grid grid-cols-1 gap-16 text-black'>
             <Fade>
                 <div className="p-6 md:p-8 md:flex items-center gap-16 mx-4 space-y-2 shadow-2xl rounded-2xl bg-white border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 transition-all">
                     <div className='md:w-1/2'>
