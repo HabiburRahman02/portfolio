@@ -10,6 +10,7 @@ import Projects from "./pages/Home/Projects/Projects";
 import AboutMe from "./pages/Home/AboutMe/AboutMe";
 import Education from "./pages/Home/Education/Education";
 import Contact from "./pages/Home/Contact/Contact";
+import ViewDetails from "./pages/Home/Projects/ViewDetails";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,11 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+        path: '/viewDetails/:id',
+        element: <ViewDetails></ViewDetails>,
+        loader: () => fetch(`projects.json`)
       },
     ]
   },

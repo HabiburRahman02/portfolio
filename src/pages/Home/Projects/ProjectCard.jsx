@@ -1,4 +1,5 @@
 import { MdLiveTv } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
 
@@ -12,11 +13,13 @@ const ProjectCard = ({ project }) => {
                 {/* <p className="text-gray-700 mt-2">{project.description.substring(0, 100)}...</p> */}
 
                 <div className='flex items-center justify-between mt-6'>
-                    <button
-                        className="px-6 py-3 bg-blue-500 text-white hover:bg-blue-700"
-                    >
-                        View Details
-                    </button>
+                    <Link to={`/viewDetails/${project.id}`}>
+                        <button
+                            className="px-6 py-3 bg-blue-500 text-white hover:bg-blue-600 duration-500"
+                        >
+                            View Details
+                        </button>
+                    </Link>
 
                     <a href="https://touristsspot-1f4a5.web.app" target="_blank">
                         <div className='flex items-center  gap-3 text-2xl hover:underline text-blue-500 cursor-pointer'>
