@@ -39,6 +39,7 @@ const Navbar = () => {
             </ul>
           </div>
           <h2 className="text-2xl hidden lg:block">Md. Habibullah</h2>
+          <h2 className="text-2xl hidden lg:block">Md. Habibullah</h2>
         </div>
         <div className="navbar-end ">
           <h2 className="text-2xl lg:hidden">Md. Habibullah</h2>
