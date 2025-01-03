@@ -3,7 +3,7 @@ import Tilt from 'react-parallax-tilt';
 import { Typewriter } from 'react-simple-typewriter';
 import profileImg from '../../../assets/images/profileImg3.png'
 import SocialIcon from '../../Shared/SocialIcon/SocialIcon';
-import { Fade, Zoom } from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 const AboutMe = () => {
     return (
@@ -13,7 +13,7 @@ const AboutMe = () => {
                     <Fade direction='left'>
                         <div className=' p-8 w-full rounded-2xl border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 hover:border-t-indigo-500 hover:border-r-pink-500 hover:border-b-pink-500 hover:border-l-indigo-500 cursor-pointer transition-all mb-6 md:mb-0 bg-gray-100 shadow-2xl'>
                             <Tilt>
-                                <img className='w-full border-red-400 rounded-2xl bg-gradient-to-r from-indigo-500 to-pink-500' src={profileImg} alt="" />
+                                <img className='w-full h-1/2 border-red-400 rounded-2xl bg-gradient-to-r from-indigo-500 to-pink-500' src={profileImg} alt="" />
                             </Tilt>
 
                         </div>

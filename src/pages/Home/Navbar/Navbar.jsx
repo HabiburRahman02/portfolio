@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
-import { FaSkullCrossbones } from "react-icons/fa6";
+import { AiOutlineClose } from "react-icons/ai";
 import { HiMiniBars4 } from "react-icons/hi2";
+import { TfiClose } from "react-icons/tfi";
 import { useState } from "react";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -25,7 +26,7 @@ const Navbar = () => {
           <div className="dropdown">
             <div onClick={() => setOpen(!open)} tabIndex={0} role="button" className="lg:hidden">
               {
-                open === true ? <FaSkullCrossbones className="text-2xl mr-4"></FaSkullCrossbones> :
+                open === true ? <AiOutlineClose className="text-2xl mr-4"></AiOutlineClose> :
                   <HiMiniBars4 className="text-2xl mr-4"></HiMiniBars4>
               }
 
@@ -38,7 +39,6 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <h2 className="text-2xl hidden lg:block">Md. Habibullah</h2>
           <h2 className="text-2xl hidden lg:block">Md. Habibullah</h2>
         </div>
         <div className="navbar-end ">

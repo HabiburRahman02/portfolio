@@ -1,26 +1,31 @@
-import { Fade } from 'react-awesome-reveal';
-import ProjectContainer1 from '../ProjectContainer1/ProjectContainer1';
-import ProjectContainerTwo from '../Home/ProjectContainerTwo/ProjectContainerTwo';
+import { useEffect, useState } from 'react';
+import SectionTitle from '../../Shared/SectionTitle/SectionTitle';
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
+    const [projects, setProjects] = useState([]);
+    console.log(projects);
+    useEffect(() => {
+        fetch('projects.json')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                setProjects(data)
+            })
+    }, [])
 
     return (
-        <Fade>
-            <div className="my-16 max-w-[1300px] mx-auto">
-                <h1 className="text-5xl dark:text-white font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 text-center">Projects_ </h1>
-
-                {/* first card container start */}
-                <ProjectContainer1></ProjectContainer1>
-                {/* first card container end */}
-
-
-                {/* second card container start */}
-                <ProjectContainerTwo></ProjectContainerTwo>
-                {/* second card container end */}
-
-
+        <div className="my-16 max-w-[1300px] mx-auto">
+            <SectionTitle></SectionTitle>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-8 mx-6 md:mx-0'>
+                {
+                    projects.map(project => <ProjectCard
+                        key={project.id}
+                        project={project}
+                    ></ProjectCard>)
+                }
             </div>
-        </Fade>
+        </div>
     );
 };
 
