@@ -23,7 +23,8 @@ const Projects = () => {
                     projects.map(project => <Fade
                         key={project.id}
                         duration={1000}
-                        direction={project.fade_direction}>
+                        triggerOnce
+                        direction='up'>
                         <ProjectCard
                             project={project}
                         ></ProjectCard>

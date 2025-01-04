@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ProjectCard = ({ project }) => {
 
     return (
-        <div className=" rounded shadow-xl w-full  bg-white">
+        <div className=" rounded shadow-xl w-full  bg-white dark:text-black">
             <div>
                 <img className="w-full h-60 object-cover" src={project.image} alt={project.name} />
             </div>
@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
                         </button>
                     </Link>
 
-                    <a href="https://touristsspot-1f4a5.web.app" target="_blank">
+                    <a href={project.live} target="_blank">
                         <div className='flex items-center  gap-3 text-2xl hover:underline text-blue-500 cursor-pointer'>
                             <MdLiveTv></MdLiveTv>
                             <p>Live Preview</p>

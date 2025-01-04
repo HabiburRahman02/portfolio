@@ -13,10 +13,10 @@ const Contact = () => {
                 <div className="md:flex items-center gap-16 m-4">
                     {/* Left Section */}
                     <div className="md:w-2/5 mb-6 rounded-2xl p-4">
-                        <Zoom duration={1000}>
+                        <Zoom duration={1000} triggerOnce>
                             <img className="rounded-lg h-64 w-full object-cover shadow-lg" src={contactImg} alt="Contact" />
                         </Zoom>
-                        <Fade direction="up" duration={1000}>
+                        <Fade direction="up" duration={1000} tr>
                             <div className="mt-6">
                                 <h3 className="text-2xl font-semibold">Habibur Rahman</h3>
                                 <p className="text-xl text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">
@@ -60,7 +60,7 @@ const Contact = () => {
 
                     {/* Right Section */}
                     <div className="md:w-3/5">
-                        <form className="card-body rounded-xl border-2 border-gray-200 shadow-lg hover:shadow-xl duration-500 transition-all">
+                        <form className="card-body dark:text-gray-500 rounded-xl border-2 border-gray-200 shadow-lg hover:shadow-xl duration-500 transition-all">
                             <div className="form-control mb-4">
                                 <label className="label">
                                     <span className="text-xl font-medium text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">

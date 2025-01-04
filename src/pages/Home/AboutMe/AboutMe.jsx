@@ -7,10 +7,10 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const AboutMe = () => {
     return (
-        <div className=' max-w-[1300px] mx-auto my-16 lg:my-20'>
+        <div className=' max-w-[1300px] dark:text-gray-300 mx-auto my-16 lg:my-20'>
             <div className="md:flex gap-28 p-2 items-center">
                 <div className='md:w-1/2'>
-                    <Fade direction='left'>
+                    <Fade direction='left' triggerOnce>
                         <div className=' p-8 w-full rounded-2xl border-2 border-t-gray-700 border-r-8 border-r-gray-700 border-b-8 border-b-gray-700 border-l-gray-700 cursor-pointer transition-all mb-6 md:mb-0 bg-gray-100 shadow-2xl'>
                             <Tilt>
                                 <img className='w-full object-cover border-red-400 rounded-2xl bg-gradient-to-r from-indigo-500 to-pink-500' src={profileImg} alt="" />

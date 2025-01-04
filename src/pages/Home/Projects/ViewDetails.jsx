@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Bounce, Zoom } from "react-awesome-reveal";
 import { Link, useParams } from "react-router-dom";
 
 const ViewDetails = () => {
@@ -24,31 +25,33 @@ const ViewDetails = () => {
 
             {/* Project Image */}
             <div className="mb-6 overflow-hidden rounded-lg shadow-lg">
-                <img src={image} alt={name} className="w-full h-60 md:h-96 object-cover transform hover:scale-105 transition duration-500" />
+                <Bounce duration={9000}>
+                    <img src={image} alt={name} className="w-full h-60 md:h-96 object-cover transform hover:scale-105 transition duration-500" />
+                </Bounce>
             </div>
 
             {/* Action Buttons */}
             <div className="flex justify-center">
-                <div className="flex gap-4">
-                    <a href="">
+                <div className="md:flex gap-4">
+                    <a href={live}>
                         <button
-                            className="px-8 py-4 bg-blue-500 text-white hover:bg-blue-700 duration-500"
+                            className="px-8 w-full py-4 bg-blue-500 text-white hover:bg-blue-700 duration-500"
                         >
                             Live Site Link
                         </button>
                     </a>
-                    <a href="">
+                    <a href={client_repo}>
                         <button
-                            className="px-8 py-4 bg-blue-500 text-white hover:bg-blue-700 duration-500"
+                            className="px-8 py-4 my-4 md:my-0 w-full bg-blue-500 text-white hover:bg-blue-700 duration-500"
                         >
-                            Live Site Link
+                            Client Site Repo
                         </button>
                     </a>
-                    <a href="">
+                    <a href={server_repo}>
                         <button
-                            className="px-8 py-4 bg-blue-500 text-white hover:bg-blue-700 duration-500"
+                            className="px-8 py-4 w-full bg-blue-500 text-white hover:bg-blue-700 duration-500"
                         >
-                            Live Site Link
+                            Server Site Repo
                         </button>
                     </a>
 
@@ -72,19 +75,21 @@ const ViewDetails = () => {
             </div>
 
             {/* Features */}
-            <div className="my-8">
-                <h3 className="text-xl font-semibold text-gray-600 text-center mb-4">Features:</h3>
-                <ul className="list-inside space-y-4">
-                    {features?.map((feature, i) => (
-                        <li
-                            key={i}
-                            className="text-lg text-gray-600 leading-relaxed"
-                        >
-                            <span className="font-semibold">- </span>{feature}
-                        </li>
-                    ))}
-                </ul>
-            </div>
+            <Zoom duration={1000} triggerOnce>
+                <div className="my-8">
+                    <h3 className="text-xl font-semibold text-gray-600 text-center mb-4">Features:</h3>
+                    <ul className="list-inside space-y-4">
+                        {features?.map((feature, i) => (
+                            <li
+                                key={i}
+                                className="text-lg text-gray-600 leading-relaxed"
+                            >
+                                <span className="font-semibold">- </span>{feature}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </Zoom>
 
             <div className="flex justify-center">
                 <Link to='/'>
