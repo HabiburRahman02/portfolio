@@ -15,7 +15,7 @@ const ProjectCard = ({ project }) => {
                 <div className='sm:flex items-center justify-between mt-6'>
                     <Link to={`/viewDetails/${project.id}`}>
                         <button
-                            className="px-6 py-3 bg-blue-500 text-white hover:bg-blue-600 duration-500"
+                            className="px-6 py-3 rounded-sm bg-blue-500 text-white hover:bg-blue-600 duration-500"
                         >
                             View Details
                         </button>

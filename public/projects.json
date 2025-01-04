@@ -6,14 +6,15 @@
     "technologies": [
       "HTML",
       "CSS",
-      "Bootstrap",
+      "Tailwind",
       "React",
       "React Router",
       "Firebase",
       "React Router Hooks",
       "React Form",
       "Node.js",
-      "MongoDB"
+      "MongoDB",
+      "Express Js"
     ],
     "image": "https://i.ibb.co.com/RSGNRNn/a11.jpg",
     "live": "https://a10-online-study.web.app",
@@ -40,30 +41,31 @@
     "technologies": [
       "HTML",
       "CSS",
-      "Bootstrap",
+      "Tailwind",
       "React",
       "React Router",
       "Firebase",
       "React Router Hooks",
       "React Form",
       "Node.js",
-      "MongoDB"
+      "MongoDB",
+      "Express Js"
     ],
     "image": "https://i.ibb.co.com/Z19wq0m/a10.jpg",
     "live": "https://fundweb.netlify.app",
     "client_repo": "https://github.com/HabiburRahman02/a10_fund_web_client",
     "server_repo": "https://github.com/HabiburRahman02/a10_fund_web_server",
     "fade_direction": "up",
-    "features": [
-      "This is an inventory management website so you can manage products here",
-      "You can login via mail, password, and also through Google",
-      "You can add new products",
-      "User can delete their orders",
-      "In product details page you can see details of the products",
-      "Admin can delete products",
-      "All the data are stored in MongoDB, so the data are not lost after refreshing",
-      "Responsive, so it can also be used via mobile phones"
-    ]
+   "features": [
+  "This is a funding website designed to help impoverished and vulnerable individuals who often face various challenges and need assistance. Through this platform, they can request help.",
+  "People who wish to support and assist those in need can also make donations via this platform.",
+  "Donations must be made before the campaign deadline. If the deadline has passed, the donation option will be disabled.",
+  "Donors can view their contributions based on their email addresses.",
+  "Campaigns can be added, updated, or deleted as needed.",
+  "Additionally, several other features have been included to enhance the platform.",
+  "We can do many more things through this website."
+]
+
   },
   {
     "id": 3,
@@ -72,14 +74,15 @@
     "technologies": [
       "HTML",
       "CSS",
-      "Bootstrap",
+      "Tailwind",
       "React",
       "React Router",
       "Firebase",
       "React Router Hooks",
       "React Form",
       "Node.js",
-      "MongoDB"
+      "MongoDB",
+      "Express Js"
     ],
     "image": "https://i.ibb.co.com/QndCDn1/tourist-dark.jpg",
     "live": "https://touristsspot-1f4a5.web.app",
@@ -87,14 +90,13 @@
     "server_repo": "https://github.com/HabiburRahman02/tourist-spots-server",
     "fade_direction": "right",
     "features": [
-      "This is an inventory management website so you can manage products here",
-      "You can login via mail, password, and also through Google",
-      "You can add new products",
-      "User can delete their orders",
-      "In product details page you can see details of the products",
-      "Admin can delete products",
-      "All the data are stored in MongoDB, so the data are not lost after refreshing",
-      "Responsive, so it can also be used via mobile phones"
+      "User sees a banner upon first visiting the website.",
+      "After scrolling, users can see different travel destinations.",
+      "Users can view who has visited each place and read their reviews.",
+      "Users can add a new place, but they must log in first.",
+      "After logging in, users can add reviews and provide feedback.",
+      "Each user can view the places they have personally added.",
+      "Additional features have been added to enhance user experience."
     ]
   }
 ]

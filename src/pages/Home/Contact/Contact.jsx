@@ -4,6 +4,7 @@ import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import contactImg from '../../../assets/images/contacts/contact.jpg'
 import { Fade, Zoom } from "react-awesome-reveal";
 import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
     return (
@@ -60,65 +61,7 @@ const Contact = () => {
 
                     {/* Right Section */}
                     <div className="md:w-3/5">
-                        <form className="card-body dark:text-gray-500 rounded-xl border-2 border-gray-200 shadow-lg hover:shadow-xl duration-500 transition-all">
-                            <div className="form-control mb-4">
-                                <label className="label">
-                                    <span className="text-xl font-medium text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">
-                                        Your Name
-                                    </span>
-                                </label>
-                                <Fade direction="up" duration={1000}>
-                                    <input
-                                        type="text"
-                                        placeholder="Enter your name"
-                                        className="w-full border border-gray-300 p-4 rounded-md focus:outline-none focus:ring-1 focus:ring-indigo-500"
-                                        required
-                                    />
-                                </Fade>
-                            </div>
-
-                            <div className="form-control mb-4">
-                                <label className="label">
-                                    <span className="text-xl font-medium text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">
-                                        Your Email
-                                    </span>
-                                </label>
-                                <Fade direction="up" duration={1000}>
-                                    <input
-                                        type="email"
-                                        placeholder="Enter your email"
-                                        className="w-full border border-gray-300 p-4 rounded-md focus:outline-none focus:ring-1 focus:ring-indigo-500"
-                                        required
-                                    />
-                                </Fade>
-                            </div>
-
-                            <div className="form-control mb-6">
-                                <label className="label">
-                                    <span className="text-xl font-medium text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">
-                                        Your Message
-                                    </span>
-                                </label>
-                                <Fade direction="up" duration={1000}>
-                                    <textarea
-                                        rows={4}
-                                        placeholder="Enter your message"
-                                        className="w-full border border-gray-300 p-4 rounded-md focus:outline-none focus:ring-1 focus:ring-indigo-500"
-                                        required
-                                    ></textarea>
-                                </Fade>
-                            </div>
-
-                            <div className="form-control">
-                                <Fade direction="up" duration={1000}>
-                                    <button
-                                        className="w-full duration-500 p-4 text-white rounded-md bg-gradient-to-r from-indigo-500 to-pink-500 hover:from-pink-500 hover:to-indigo-500 transition-all"
-                                    >
-                                        Send Message
-                                    </button>
-                                </Fade>
-                            </div>
-                        </form>
+                        <ContactForm></ContactForm>
                     </div>
                 </div>
             </div>

@@ -11,6 +11,7 @@ import AboutMe from "./pages/Home/AboutMe/AboutMe";
 import Education from "./pages/Home/Education/Education";
 import Contact from "./pages/Home/Contact/Contact";
 import ViewDetails from "./pages/Home/Projects/ViewDetails";
+import { ToastContainer } from 'react-toastify';
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <div className="bg-base-200 dark:bg-[rgb(33,37,41)] dark:text-white">
       <RouterProvider router={router} />
+      <ToastContainer></ToastContainer>
     </div>
   </StrictMode>
 );
