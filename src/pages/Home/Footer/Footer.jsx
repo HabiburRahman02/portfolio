@@ -1,7 +1,30 @@
 import { Link } from "react-router-dom";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { animateScroll as scroll } from 'react-scroll';
+import { useEffect, useState } from "react";
+import { FaRegArrowAltCircleUp } from "react-icons/fa";
+
 
 const Footer = () => {
+    const [scrollButtonVisible, setScrollButtonVisible] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 400) {
+                setScrollButtonVisible(true);
+            } else {
+                setScrollButtonVisible(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+    };
+
     return (
         <div className=" px-4 bg-gradient-to-r from-indigo-500 to-pink-500 text-white py-12">
             <div className="md:flex items-center justify-between space-y-5 text-center max-w-[1300px] mx-auto">
@@ -48,6 +71,15 @@ const Footer = () => {
                 >
                     <p className="text-xl underline">Say Hello</p>
                 </Link>
+
+                {scrollButtonVisible &&
+                    <button
+                        className="fixed bottom-5 right-5 px-3 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700"
+                        onClick={scrollToTop}
+                    >
+                        <FaRegArrowAltCircleUp className="text-xl"></FaRegArrowAltCircleUp>
+                    </button>
+                }
             </div>
         </div>
     );
