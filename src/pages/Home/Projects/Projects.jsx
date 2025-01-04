@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import SectionTitle from '../../Shared/SectionTitle/SectionTitle';
 import ProjectCard from './ProjectCard';
+import { Fade } from 'react-awesome-reveal';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -15,14 +16,18 @@ const Projects = () => {
     }, [])
 
     return (
-        <div className="my-16 max-w-[1300px] mx-auto">
-            <SectionTitle title='Projects'></SectionTitle>
+        <div className="my-16 lg:my-24 max-w-[1300px] mx-auto">
+            <SectionTitle title='Projects_'></SectionTitle>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-8 mx-6 md:mx-0'>
                 {
-                    projects.map(project => <ProjectCard
+                    projects.map(project => <Fade
                         key={project.id}
-                        project={project}
-                    ></ProjectCard>)
+                        duration={1000}
+                        direction={project.fade_direction}>
+                        <ProjectCard
+                            project={project}
+                        ></ProjectCard>
+                    </Fade>)
                 }
             </div>
         </div>

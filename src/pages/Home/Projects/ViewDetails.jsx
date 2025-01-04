@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
 
 const ViewDetails = () => {
     const [projects, setProjects] = useState([]);

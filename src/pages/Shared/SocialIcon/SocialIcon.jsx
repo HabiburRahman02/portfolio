@@ -2,6 +2,11 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-i
 import { Link } from "react-router-dom";
 
 const SocialIcon = () => {
+    const phoneNumber = "8801779888454";
+    const message = "Hi, I want to discuss about your portfolio!";
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+
     return (
         <div className="flex gap-6 text-3xl ">
             <Link
@@ -12,7 +17,7 @@ const SocialIcon = () => {
                 <FaTwitter></FaTwitter>
             </Link>
             <Link
-                to={'https://portfoliohabib.netlify.app'}
+                href={whatsappLink}
                 target="_blank"
                 className="text-green-500"
             >

@@ -19,6 +19,7 @@
     "live": "https://touristspots.example.com",
     "server_repo": "https://github.com/username/tourist-spots-server",
     "client_repo": "https://github.com/username/tourist-spots-client",
+    "fade_direction": "left",
     "features": [
       "This is an inventory management website so you can manage products here",
       "You can login via mail, password, and also through Google",
@@ -50,6 +51,7 @@
     "live": "https://productstore.example.com",
     "server_repo": "https://github.com/username/product-store-server",
     "client_repo": "https://github.com/username/product-store-client",
+    "fade_direction": "up",
     "features": [
       "This is an inventory management website so you can manage products here",
       "You can login via mail, password, and also through Google",
@@ -81,6 +83,7 @@
     "live": "https://ticketcalculator.example.com",
     "server_repo": "https://github.com/username/ticket-fare-calculator-server",
     "client_repo": "https://github.com/username/ticket-fare-calculator-client",
+    "fade_direction": "right",
     "features": [
       "This is an inventory management website so you can manage products here",
       "You can login via mail, password, and also through Google",

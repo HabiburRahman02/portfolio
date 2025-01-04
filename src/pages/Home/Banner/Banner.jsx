@@ -5,8 +5,8 @@ import { Typewriter } from 'react-simple-typewriter'
 import bannerImgJson from '../../../assets/images/bannerImgJson.json'
 import resumePdf from '../../../assets/link/habibur-resume.pdf'
 import { Fade } from "react-awesome-reveal";
-import Lottie from "lottie-react";
 import { FaHandsClapping } from "react-icons/fa6";
+import Lottie from "lottie-react";
 
 const Banner = () => {
     // style={{ clipPath: 'ellipse(100% 100% at 50% 0%)' }}
@@ -26,6 +26,10 @@ const Banner = () => {
                             <Typewriter
                                 words={[" Web Developer", " React js Developer", " Frontend Developer"]}
                                 loop={false}
+                                cursor="|"
+                                delaySpeed={2000}
+                                typeSpeed={50}
+                                deleteSpeed={50}
                             ></Typewriter>
                         </div>
                     </Fade>
@@ -46,9 +50,9 @@ const Banner = () => {
                 </div>
 
                 <div className='md:w-1/2 border2'>
-                    <Fade duration={2000} direction="down">
-                        <Lottie className="w-full" animationData={bannerImgJson} loop={true} />
-                    </Fade>
+                    {/* <Fade duration={2000} direction="down"> */}
+                    <Lottie className="w-full" animationData={bannerImgJson} loop={true} />
+                    {/* </Fade> */}
                 </div>
 
             </div>

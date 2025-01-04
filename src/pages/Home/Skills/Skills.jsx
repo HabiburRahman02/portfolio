@@ -13,12 +13,13 @@ import git from '../../../assets/images/skills/git.png'
 
 import Marquee from 'react-fast-marquee'
 import { Fade } from 'react-awesome-reveal'
+import SectionTitle from '../../Shared/SectionTitle/SectionTitle'
 
 const Skills = () => {
     return (
         <Fade>
             <div className="my-16 text-center">
-                <h1 className="text-5xl font-bold dark:text-white  text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 ">Skills_ </h1>
+                <SectionTitle title="Skills_"></SectionTitle>
                 <Marquee pauseOnClick={true}>
                     <div className='grid grid-cols-3 md:grid-cols-7 gap-3 m-3 my-8'>
                         <div className='bg-gradient-to-b from-red-900 to-red-600 rounded-lg flex items-center justify-center px-12 py-6'>
