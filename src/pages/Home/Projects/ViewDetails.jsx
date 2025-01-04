@@ -7,7 +7,7 @@ const ViewDetails = () => {
     const { id } = useParams();
 
     const data = projects.find(project => project.id === parseInt(id));
-    const { name, description, client_repo, server_repo, features, image, live, technologies } = data || {}
+    const { name, client_repo, server_repo, features, image, live, technologies } = data || {}
     useEffect(() => {
         fetch('/projects.json')
             .then(res => res.json())
@@ -17,7 +17,7 @@ const ViewDetails = () => {
             })
     }, [])
     return (
-        <div className="max-w-4xl mx-auto p-6 my-12 pb-12 bg-white shadow-xl">
+        <div className="max-w-4xl rounded-lg mx-auto p-6 my-12 pb-12 bg-white shadow-xl">
             {/* Project Title */}
             <div className="text-center mb-6">
                 <h1 className="text-4xl text-gray-600 text-center">{name}</h1>
@@ -33,25 +33,25 @@ const ViewDetails = () => {
             {/* Action Buttons */}
             <div className="flex justify-center">
                 <div className="md:flex gap-4">
-                    <a href={live}>
+                    <a href={live} target="_blank">
                         <button
                             className="px-8 w-full py-4 bg-blue-500 text-white hover:bg-blue-700 duration-500"
                         >
                             Live Site Link
                         </button>
                     </a>
-                    <a href={client_repo}>
+                    <a href={client_repo} target="_blank">
                         <button
                             className="px-8 py-4 my-4 md:my-0 w-full bg-blue-500 text-white hover:bg-blue-700 duration-500"
                         >
-                            Client Site Repo
+                            Client Side Repo
                         </button>
                     </a>
-                    <a href={server_repo}>
+                    <a href={server_repo} target="_blank">
                         <button
                             className="px-8 py-4 w-full bg-blue-500 text-white hover:bg-blue-700 duration-500"
                         >
-                            Server Site Repo
+                            Server Side Repo
                         </button>
                     </a>
 

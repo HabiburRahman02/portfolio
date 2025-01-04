@@ -18,7 +18,7 @@ const Projects = () => {
     return (
         <div className="my-16 lg:my-24 max-w-[1300px] mx-auto">
             <SectionTitle title='Projects_'></SectionTitle>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-8 mx-6 md:mx-0'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-8 mx-6 xl:mx-0'>
                 {
                     projects.map(project => <Fade
                         key={project.id}

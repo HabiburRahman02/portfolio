@@ -17,18 +17,20 @@
     ],
     "image": "https://i.ibb.co.com/RSGNRNn/a11.jpg",
     "live": "https://a10-online-study.web.app",
-    "server_repo": "https://github.com/username/tourist-spots-server",
-    "client_repo": "https://github.com/username/tourist-spots-client",
+    "client_repo": "https://github.com/HabiburRahman02/a11_online_study_client",
+    "server_repo": "https://github.com/HabiburRahman02/a11_online_study_server",
     "fade_direction": "left",
     "features": [
-      "This is an inventory management website so you can manage products here",
-      "You can login via mail, password, and also through Google",
-      "You can add new products",
-      "User can delete their orders",
-      "In product details page you can see details of the products",
-      "Admin can delete products",
-      "All the data are stored in MongoDB, so the data are not lost after refreshing",
-      "Responsive, so it can also be used via mobile phones"
+      "View Assignments Without Logging In: Any user can view assignments added by others without login.",
+      "Add Assignments: Users can add their own assignments, but they need to log in first.",
+      "Attempt Assignments: Users can take exams or attempt assignments added by others.",
+      "Receive Results: Other users can provide results for the exams they have taken.",
+      "Validation for Self-Grading: Users cannot grade their own exams; validation will prevent it.",
+      "Provide Feedback: After receiving marks, users can give feedback on the assignments, such as the score received and suggestions for improvement.",
+      "Pending Status for Submissions: Assignments will remain in a pending state after submission.",
+      "Auto-Update on Marking: Once marks are given, the assignment status will automatically update.",
+      "Logout for Unauthorized Users: If a hacker or unauthorized user is detected, they will be logged out",
+      "Additionally, the website has many other advanced features."
     ]
   },
   {
@@ -49,8 +51,8 @@
     ],
     "image": "https://i.ibb.co.com/Z19wq0m/a10.jpg",
     "live": "https://fundweb.netlify.app",
-    "server_repo": "https://github.com/username/product-store-server",
-    "client_repo": "https://github.com/username/product-store-client",
+    "client_repo": "https://github.com/HabiburRahman02/a10_fund_web_client",
+    "server_repo": "https://github.com/HabiburRahman02/a10_fund_web_server",
     "fade_direction": "up",
     "features": [
       "This is an inventory management website so you can manage products here",
@@ -81,8 +83,8 @@
     ],
     "image": "https://i.ibb.co.com/QndCDn1/tourist-dark.jpg",
     "live": "https://touristsspot-1f4a5.web.app",
-    "server_repo": "https://github.com/username/ticket-fare-calculator-server",
-    "client_repo": "https://github.com/username/ticket-fare-calculator-client",
+    "client_repo": "https://github.com/HabiburRahman02/tourist-spots-client",
+    "server_repo": "https://github.com/HabiburRahman02/tourist-spots-server",
     "fade_direction": "right",
     "features": [
       "This is an inventory management website so you can manage products here",
