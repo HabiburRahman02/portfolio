@@ -6,7 +6,6 @@ const SocialIcon = () => {
     const message = "Hi, I want to discuss about your portfolio!";
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
-
     return (
         <div className="flex gap-6 text-3xl ">
             <Link
@@ -16,13 +15,13 @@ const SocialIcon = () => {
             >
                 <FaTwitter></FaTwitter>
             </Link>
-            <Link
+            <a
                 href={whatsappLink}
                 target="_blank"
                 className="text-green-500"
             >
                 <FaWhatsapp></FaWhatsapp>
-            </Link>
+            </a>
             <Link
                 to={'https://web.facebook.com/habiburrahman.habib.56027281'}
                 target="_blank"

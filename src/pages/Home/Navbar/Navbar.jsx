@@ -11,12 +11,12 @@ const Navbar = () => {
   }
   const links = (
     <>
-      <NavLink className={({ isActive }) => `text-xl mr-8 ${isActive && 'border-b-2 border-b-white'}`} to='/'>Home</NavLink>
-      <NavLink className={({ isActive }) => `text-xl mr-8 ${isActive && 'border-b-2 border-b-white'}`} to='/aboutMe'>About</NavLink>
-      <NavLink className={({ isActive }) => `text-xl mr-8 ${isActive && 'border-b-2 border-b-white'}`} to='/skills'>Skills</NavLink>
-      <NavLink className={({ isActive }) => `text-xl mr-8 ${isActive && 'border-b-2 border-b-white'}`} to='/projects'>Projects</NavLink>
-      <NavLink className={({ isActive }) => `text-xl mr-8 ${isActive && 'border-b-2 border-b-white'}`} to='/education'>Education</NavLink>
-      <NavLink className={({ isActive }) => `text-xl mr-8 ${isActive && 'border-b-2 border-b-white'}`} to='/contact'>Contact</NavLink>
+      <NavLink className={({ isActive }) => `text-xl mr-6 ${isActive && 'border-b-2 border-b-white'}`} to='/'>Home</NavLink>
+      <NavLink className={({ isActive }) => `text-xl mr-6 ${isActive && 'border-b-2 border-b-white'}`} to='/aboutMe'>About</NavLink>
+      <NavLink className={({ isActive }) => `text-xl mr-6 ${isActive && 'border-b-2 border-b-white'}`} to='/skills'>Skills</NavLink>
+      <NavLink className={({ isActive }) => `text-xl mr-6 ${isActive && 'border-b-2 border-b-white'}`} to='/projects'>Projects</NavLink>
+      <NavLink className={({ isActive }) => `text-xl mr-6 ${isActive && 'border-b-2 border-b-white'}`} to='/education'>Education</NavLink>
+      <NavLink className={({ isActive }) => `text-xl mr-6 ${isActive && 'border-b-2 border-b-white'}`} to='/contact'>Contact</NavLink>
     </>
   );
   return (

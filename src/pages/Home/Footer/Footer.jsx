@@ -6,6 +6,10 @@ import { FaRegArrowAltCircleUp } from "react-icons/fa";
 
 
 const Footer = () => {
+    const phoneNumber = "8801779888454";
+    const message = "Hi, I want to discuss about your portfolio!";
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
     const [scrollButtonVisible, setScrollButtonVisible] = useState(false);
 
     useEffect(() => {
@@ -38,7 +42,7 @@ const Footer = () => {
                             <FaTwitter></FaTwitter>
                         </Link>
                         <Link
-                            to={'https://portfoliohabib.netlify.app'}
+                            to={whatsappLink}
                             target="_blank"
                         >
                             <FaWhatsapp></FaWhatsapp>
@@ -66,7 +70,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <Link
-                    to={'https://www.whatsapp.com'}
+                    to={whatsappLink}
                     target="_blank"
                 >
                     <p className="text-xl underline">Say Hello</p>
