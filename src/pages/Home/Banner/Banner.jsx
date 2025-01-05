@@ -21,7 +21,7 @@ const Banner = () => {
                         </div>
                     </Fade>
                     <Fade duration={2000} direction="up">
-                        <div className="text-5xl font-bold">
+                        <div className="text-4xl sm:text-5xl font-bold">
                             I'm a
                             <Typewriter
                                 words={[" Web Developer", " React js Developer", " Frontend Developer"]}

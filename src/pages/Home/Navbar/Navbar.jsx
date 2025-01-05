@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiMiniBars4 } from "react-icons/hi2";
-import { TfiClose } from "react-icons/tfi";
 import { useState } from "react";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -34,7 +33,7 @@ const Navbar = () => {
             <ul
               tabIndex={0}
               className={` ${open ? 'top-6' : '-top-96'} menu menu-sm dropdown-content bg-gradient-to-r 
-              from-indigo-500 to-pink-500  mt-5 w-52 p-2 shadow`}
+              from-indigo-500 to-pink-500  mt-6 w-52 p-2 shadow`}
             >
               {links}
             </ul>
@@ -42,7 +41,7 @@ const Navbar = () => {
           <h2 className="text-2xl hidden lg:block">Md. Habibullah</h2>
         </div>
         <div className="navbar-end ">
-          <h2 className="text-2xl lg:hidden">Md. Habibullah</h2>
+          <h2 className="text-2xl lg:hidden mr-10 sm:mr-40 md:mr-72 mx-auto text-nowrap">Md. Habibullah</h2>
           <div className="hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               {links}
@@ -50,9 +49,6 @@ const Navbar = () => {
           </div>
         </div>
         <div>
-          {/* <button
-
-            className="btn ml-2">Dark</button> */}
           <div
             onClick={handleDarkTheme}
             className="form-control">

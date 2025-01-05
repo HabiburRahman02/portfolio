@@ -20,7 +20,7 @@ const Education = () => {
 
                     contentArrowStyle={{ borderRight: '7px solid  rgb(6, 182, 212)' }}
                     date="2018 - 2020 "
-                    dateClassName='text-white md:text-blue-900'
+                    dateClassName='dark:text-white lg:text-blue-900'
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 
                 >
@@ -39,7 +39,7 @@ const Education = () => {
 
                     contentArrowStyle={{ borderRight: '7px solid  rgb(59, 130, 246)' }}
                     date="2021 - 2024"
-                    dateClassName='text-white md:text-pink-900'
+                    dateClassName='dark:text-white lg:text-pink-900'
 
                     iconStyle={{ background: 'rgb(236, 72, 153)', color: '#fff' }}
                     iconClassName=''

@@ -23,15 +23,15 @@ const AboutMe = () => {
                 <div className='md:w-1/2'>
                     <div className='space-y-5'>
                         <Fade duration={2000} direction='down'>
-                            <h1 className="text-5xl font-bold   text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 "> About Me_ </h1>
+                            <h1 className="text-4xl sm:text-5xl font-bold   text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 "> About Me_ </h1>
                         </Fade>
                         <div>
 
                             <Fade duration={2000} direction='down'>
-                                <h3 className="text-4xl font-semibold">I'm a Developer, so available</h3>
+                                <h3 className="text-3xl sm:text-4xl font-semibold">I'm a Developer, so available</h3>
                             </Fade>
                             <Fade duration={2000} direction='up'>
-                                <div className='text-2xl font-semibold text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 uppercase'>
+                                <div className='text-xl sm:text-2xl font-semibold text-indigo-500 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500 uppercase'>
                                     for
                                     <Typewriter
                                         words={[" Web Development", " Web Design", " Mern Stack Development", " Frontend Development"]}
